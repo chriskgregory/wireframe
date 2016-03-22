@@ -1,0 +1,129 @@
+/*****************************************************************************/
+/* Recipes: Style */
+/*****************************************************************************/
+.wrapper-recipes {
+	min-height: 100%;
+}
+
+
+.wrapper-recipe-header {
+	margin-bottom: 15px;
+}
+
+
+.column-filter li {
+	list-style: none;
+}
+
+.filter-list-item {
+	font-size: 125%;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-top: solid 1px rgb(230,230,230);
+}
+
+.column-filter {
+	border-right: 1px solid rgb(220,220,220);
+}
+
+.filter-list-item i {
+	height:  27px;
+  	line-height: 27px;
+  	white-space: nowrap;
+}
+
+.upper-recipe-column {
+	background-color: rgb(240,240,240);
+}
+
+.filter-header {
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+.column-recipe-links {
+	border-right: solid 1px rgb(230,230,230);
+	min-height: 200px;
+	border-top: solid 1px rgb(230,230,230);
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+.column-recipe-links:nth-child(4) {
+	border-right: none;
+}
+
+.column-recipe-links .recipe-image {
+	width: 100%;
+}
+
+.row-recipe-links:nth-child(4) {
+	margin-top: 70px;
+}
+
+.filter-check-item {
+	margin-right: 25px;
+	background-color: white;
+	border: 1px solid rgb(200,200,200);
+	border-radius: 1px;
+	padding: 5px;
+	min-width: 200px;
+}
+
+.upper-recipe-column {
+	margin-bottom: 10px;
+}
+
+.filter-check-item i {
+	font-style: normal;
+	font-size: 75%;
+	margin-top: 8px;
+	margin-right: 3px;
+}
+
+.column-filter .collapse {
+	padding-left: 10px;
+}
+
+.filter-column-list {
+	padding-left: 10px;
+}
+
+.last-row {
+	margin-bottom: 100px;
+}
+
+.recipe-display p {
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.column-recipe-links:hover {
+	background: rgba(0,0,0,0.1);
+}
+
+.wrapper-mini-mealplan {
+	height: 100px; 
+	border-top: solid 1px rgb(230,230,230);
+	background: rgba(255,255,255,0.9);
+}
+
+.mmp-datepicker {
+	border-right: solid 1px rgb(230,230,230);
+}
+
+.mmp-day-block {
+	display: inline-block;
+	width: 150px;
+	border-right: solid 1px rgb(230,230,230);
+}
+
+.mmp-day-block h4 {
+	margin-top: 5px;
+}
+
+.mealplan-link {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}

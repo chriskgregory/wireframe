@@ -1,0 +1,335 @@
+<template name="Recipes">
+  <div class="container wrapper-recipes">
+  	<div class="col-xs-2">
+  	</div>
+  	<div class="col-xs-10 recipe-page-banner">
+  		<h3 class="text-center mealplan-link"><a href="mealplan">Continue to Meal Plan <span class="glyphicon glyphicon-arrow-right"></span></a></h3>
+  	</div>
+	<div class="col-xs-2 column-filter">
+		<h2 class="text-center filter-header"><i class="fa fa-filter"></i> Filter</h2>
+		<ul class="filter-column-list">
+			<li class="filter-list-item" data-toggle="collapse" data-target="#filter1"><b>Lifestyle</b> <i class="fa fa-caret-down pull-right"></i>
+			</li>
+			<ul class="collapse text-left" id="filter1">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Paleo</label>
+						<i class="pull-right">(21)</i>
+					</div>
+
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Primal</label>
+						<i class="pull-right">(6)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Vegan</label>
+						<i class="pull-right">(17)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Keto</label>
+						<i class="pull-right">(4)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Vegetarian</label>
+						<i class="pull-right">(14)</i>
+					</div>
+				</li>
+			</ul>
+
+			<li class="filter-list-item" data-toggle="collapse" data-target="#filter2"><b>Sensitivity</b> <i class="fa fa-caret-down pull-right"></i>
+			</li>
+			<ul class="collapse text-left" id="filter2">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Gluten-Free</label>
+						<i class="pull-right">(32)</i>
+					</div>
+
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Dairy-Free</label>
+						<i class="pull-right">(8)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Sugar-Free</label>
+						<i class="pull-right">(24)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Non-GMO</label>
+						<i class="pull-right">(12)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Vegetarian</label>
+						<i class="pull-right">(14)</i>
+					</div>
+				</li>
+			</ul>
+
+			<li class="filter-list-item" data-toggle="collapse" data-target="#filter3"><b>Difficulty</b> <i class="fa fa-caret-down pull-right"></i>
+			</li>
+			<ul class="collapse text-left" id="filter3">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Easy</label>
+						<i class="pull-right">(52)</i>
+					</div>
+
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Moderate</label>
+						<i class="pull-right">(36)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Difficult</label>
+						<i class="pull-right">(19)</i>
+					</div>
+				</li>
+			</ul>
+
+			<li class="filter-list-item" data-toggle="collapse" data-target="#filter4"><b>Prep Time</b> <i class="fa fa-caret-down pull-right"></i>
+			</li>
+			<ul class="collapse text-left" id="filter4">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">2-5 Minutes</label>
+						<i class="pull-right">(9)</i>
+					</div>
+
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">5-10 Minutes</label>
+						<i class="pull-right">(15)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">10-30 Minutes</label>
+						<i class="pull-right">(68)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">>30 Minutes</label>
+						<i class="pull-right">(52)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Vegetarian</label>
+						<i class="pull-right">(14)</i>
+					</div>
+				</li>
+			</ul>
+
+			<li class="filter-list-item" data-toggle="collapse" data-target="#filter5"><b>Additional</b> <i class="fa fa-caret-down pull-right"></i>
+			</li>
+			<ul class="collapse text-left" id="filter5">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Wahls Protocol</label>
+						<i class="pull-right">(13)</i>
+					</div>
+
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Wheat 30</label>
+						<i class="pull-right">(5)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">GAPS</label>
+						<i class="pull-right">(7)</i>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Phase One</label>
+						<i class="pull-right">(3)</i>
+					</div>
+				</li>
+			</ul>
+		</ul>
+	</div>
+	<div class="col-xs-10 column-recipes">
+  	<div class="col-xs-12 upper-recipe-column">
+  		<h4 style="display: inline-block;">Filters:</h4>
+  			<ul style="display: inline;">
+  				<li class="filter-check-item" style="display: inline;"><b>Sensitivity:</b> Gluten Free&nbsp;&nbsp;&nbsp;<i class="fa fa-times" style="position: absolute; float: right; cursor: pointer;">&nbsp;</i>&nbsp;&nbsp;</li>
+  				<li class="filter-check-item" style="display: inline;"><b>Difficulty:</b> Easy&nbsp;&nbsp;&nbsp;<i class="fa fa-times" style="position: absolute; float: right; cursor: pointer;">&nbsp;</i>&nbsp;&nbsp;</li>
+  				<li class="filter-check-item" style="display: inline;"><b>Prep Time:</b> 10-30 Minutes&nbsp;&nbsp;&nbsp;<i class="fa fa-times" style="position: absolute; float: right; cursor: pointer;">&nbsp;</i>&nbsp;&nbsp;</li>
+  			</ul>
+		</div>
+		<div class="col-xs-12 upper-recipe-column recipe-display">
+			 <p>Displaying 12 of 12 recipes. <span class="pull-right" style="cursor: pointer;"><i class="fa fa-bookmark-o"></i> Add ALL to Your Recipes.</span></p>
+		</div>
+		<br>
+		<div class="row row-recipe-links">
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe1.jpg" height="125px">
+  			<h4>Nasty Cakes</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe2.jpg" height="125px">
+  			<h4>Something Pizza</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe3.jpg" height="125px">
+  			<h4>Ice Cream and Tomatoes</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe4.jpg" height="125px">
+  			<h4>Empty Burgers</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  	</div>
+  	<br>
+  	<div class="row row-recipe-links">
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe5.jpg" height="125px">
+  			<h4>Cilantro Pizza</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe6.jpg" height="125px">
+  			<h4>Onion-Fish</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe7.jpg" height="125px">
+  			<h4>Day-old Roadkill</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe8.jpg" height="125px">
+  			<h4>Cookies</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  	</div>
+  	<br>
+  	<div class="row row-recipe-links">
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe9.jpg" height="125px">
+  			<h4>Leftovers</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe10.jpg" height="125px">
+  			<h4>Nuggets</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links">
+  			<img class="recipe-image" src="recipe11.jpg" height="125px">
+  			<h4>Boring Cupcakes</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  		<div class="col-xs-3 column-recipe-links last-row">
+  			<img class="recipe-image" src="recipe12.jpg" height="125px">
+  			<h4>Generic Grilled Foods</h4>
+  			<div class="recipe-link-footer">
+  				<img src="4-stars.jpg" height="20px" width="auto">
+  				<i class="pull-right fa fa-bookmark-o" style="font-size: 125%; margin-top: 5px;"></i>
+  			</div>
+  		</div>
+  	</div>
+	</div>
+
+</div>
+<!--
+<div class="navbar-fixed-bottom wrapper-mini-mealplan">
+	<div class="col-xs-2 mmp-datepicker">
+		<h4 class="text-center">Mealplan Range</h4>
+		<div class="form-group">
+			<div class="input-group date" id="mmp-datepicker">
+				<input type="text" class="form-control">
+				<span class="input-group-addon">
+					<span class="glyphicon glyphicon-calendar"></span>
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-10 mmp-days">
+		<i class="fa fa-close close-mmp" style="float: right; cursor: pointer;"></i>
+		<div class="mmp-day-block mmp-monday">
+			<h4 class="text-center">Mon</h4>
+		</div>
+		<div class="mmp-day-block mmp-tuesday">
+			<h4 class="text-center">Tue</h4>
+		</div>
+		<div class="mmp-day-block mmp-wednesday">
+			<h4 class="text-center">Wed</h4>
+		</div>
+		<div class="mmp-day-block mmp-thursday">
+			<h4 class="text-center">Thur</h4>
+		</div>
+		<div class="mmp-day-block mmp-friday">
+			<h4 class="text-center">Fri</h4>
+		</div>
+		<div class="mmp-day-block mmp-saturday">
+			<h4 class="text-center">Sat</h4>
+		</div>
+		<div class="mmp-day-block mmp-sunday">
+			<h4 class="text-center">Sun</h4>
+		</div>
+	</div>
+
+</div>
+-->
+</template>

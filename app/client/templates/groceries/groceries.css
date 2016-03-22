@@ -1,0 +1,53 @@
+/*****************************************************************************/
+/* Groceries: Style */
+/*****************************************************************************/
+.grocery-banner {
+	min-height: 130px;
+	background: url('nav-banner3.png');
+	background-size: 100% 100%;
+}
+
+.left-column-grocery-list *, .right-column-grocery-list * {
+	list-style: none;
+}
+
+.left-column-grocery-list ul, .right-column-grocery-list ul {
+	margin-bottom: 25px;
+}
+
+.grocery-selections {
+	margin-top: 25px;
+}
+
+ul.dropdown-menu {
+	margin-top: 0;
+	margin-left: 90px;
+}
+
+.derpdown {
+	text-align: center;
+}
+
+.wrapper-groceries {
+	margin-bottom: 100px;
+}
+
+.left-column-grocery-list li {
+	margin-left: 20px;
+}
+
+.left-column-grocery-list h4  {
+	margin-left: 40px;
+}
+
+.right-column-grocery-list h4 {
+	margin-left: 20px;
+}
+
+.partial-footer {
+	margin-top: 50px;
+}
+
+.produce1, .produce2, .produce3 {
+	padding-left: 5px;
+}

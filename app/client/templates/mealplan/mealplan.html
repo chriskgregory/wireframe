@@ -1,0 +1,162 @@
+<template name="Mealplan">
+  <div class="container-fluid wrapper-mealplan">
+  <!--
+	 	<div class="col-xs-12 wrapper-recipe-header text-center">
+	 		<img src="nav-banner3.png">
+	 	</div>
+	 	-->
+	 	<div class="col-xs-2 mp-your-recipes">
+	 		<h3 class="text-center">Your Recipes</h3>
+	 		<ul class="list-group your-recipe-panel">
+				<li class=" list-group-item" data-toggle="collapse" data-target="#filter1"><b>Breakfasts</b> <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+				</li>
+				<ul class="collapse text-left list-group" id="filter1">
+					<li class="list-group-item your-recipes">Green Eggs and Ham <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Bourbon and Bacon <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Oatmeal <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Breakfast Panini <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+				</ul>
+				<li class=" list-group-item" data-toggle="collapse" data-target="#filter2"><b>Entrees</b> <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+				</li>
+				<ul class="collapse text-left list-group" id="filter2">
+					<li class="list-group-item your-recipes">Chicken <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Brisket <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Pasta <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Pizza <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+				</ul>
+				<li class=" list-group-item" data-toggle="collapse" data-target="#filter3"><b>Snacks</b> <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+				</li>
+				<ul class="collapse text-left list-group" id="filter3">
+					<li class="list-group-item your-recipes">Chicken <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Brisket <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Pasta <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Pizza <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+				</ul>
+				<li class=" list-group-item" data-toggle="collapse" data-target="#filter4"><b>Sides</b> <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+				</li>
+				<ul class="collapse text-left list-group" id="filter4">
+					<li class="list-group-item your-recipes">Chicken <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Brisket <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Pasta <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+					<li class="list-group-item your-recipes">Pizza <span class="glyphicon glyphicon-eye-open pull-right"></span></li>
+				</ul>
+			</ul>
+	 	</div>
+	 	<div class="col-xs-10 mp-main">
+	 		<h3 class="text-center">Weekly Mealplan</h3>
+	 		<div class="wrapper-mp-calendar">
+	 			
+	 			
+		 		<div class="mp-mon mp-column">
+					<ul class="list-group">
+						<li class="list-group-item text-center"><b>Mon</b></li>
+						<li class="list-group-item text-center" style="background-color: rgb(245,245,245);">Drag and Drop Recipes Here</li>
+					</ul>
+		 		</div>		 		
+		 		<div class="mp-tue mp-column">
+		 			<ul class="list-group">
+						<li class="list-group-item text-center"><b>Tue</b></li>
+						<li class="list-group-item text-center" style="background-color: rgb(245,245,245);">Drag and Drop Recipes Here</li>
+					</ul>
+		 		</div>
+		 		<div class="mp-wed mp-column">
+		 			<ul class="list-group">
+						<li class="list-group-item text-center"><b>Wed</b></li>
+						<li class="list-group-item text-center" style="background-color: rgb(245,245,245);">Drag and Drop Recipes Here</li>
+					</ul>
+		 		</div>
+		 		<div class="mp-thu mp-column">
+		 			<ul class="list-group">
+						<li class="list-group-item text-center"><b>Thu</b></li>
+						<li class="list-group-item text-center" style="background-color: rgb(245,245,245);">Drag and Drop Recipes Here</li>
+					</ul>
+		 		</div>
+		 		<div class="mp-fri mp-column">
+		 			<ul class="list-group">
+						<li class="list-group-item text-center"><b>Fri</b></li>
+						<li class="list-group-item text-center" style="background-color: rgb(245,245,245);">Drag and Drop Recipes Here</li>
+					</ul>
+		 		</div>
+		 		<div class="mp-sat mp-column">
+		 			<ul class="list-group">
+						<li class="list-group-item text-center"><b>Sat</b></li>
+						<li class="list-group-item text-center" style="background-color: rgb(245,245,245);">Drag and Drop Recipes Here</li>
+					</ul>
+		 		</div>
+		 		<div class="mp-sun mp-column">
+		 			<ul class="list-group">
+						<li class="list-group-item text-center"><b>Sun</b></li>
+						<li class="list-group-item text-center" style="background-color: rgb(245,245,245);">Drag and Drop Recipes Here</li>
+					</ul>
+		 		</div>
+		 	</div>
+
+		 	<div class="col-xs-12 wrapper-mp-recipe-info">
+		 		<div class="recipe-info-top-wrapper">
+			 		<div class="col-xs-4 recipe-info-left-column">
+			 			<img src="poblano-soup.jpg" height="250px">
+			 		</div>
+			 		<div class="col-xs-8 recipe-info-right-column">		 		
+				 		<h3 class="recipe-info-title">Recipe Title <br><small>with small description underneath</small></h3>
+				 		<div class="recipe-info-details text-center">
+				 			<div class="col-xs-3 recipe-review">
+				 				<h5>Reviews</h5>
+				  				3/5
+				  			</div>
+				  			<div class="col-xs-3 recipe-difficulty">
+				  			<h5>Difficulty</h5>
+				  				Easy
+				  			</div>
+				  			<div class="col-xs-3 recipe-time">
+				  				<h5>Total Time</h5>
+				  				25 minutes
+				  			</div>
+				  			<div class="col-xs-3 recipe-ingredient-count">
+				  				<h5>Ingredients</h5>
+				  				8
+				  			</div>
+				  		</div>
+				  		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis mattis risus. Curabitur placerat tempus placerat. Ut id ultricies orci, quis hendrerit velit. Mauris vitae est in elit eleifend egestas. Fusce est orci, mattis ut convallis sit amet, volutpat sed massa.</p>
+				  	</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="recipe-info-bottom-wrapper">
+						<div class="col-xs-4 recipe-info-left-column">
+							<h3 class="text-center">Ingredients</h3>
+				 			<h5 class="text-center">Serving Size: 4</h5>
+				 			<ul class="recipe-info-ingredient-list">
+			 					<li class="recipe-info-ingredient-list-item"><b>2</b> &nbsp;&nbsp;lbs poblanos, sliced</li>
+			 					<li class="recipe-info-ingredient-list-item"><b>1</b> &nbsp;&nbsp;lb white onions, sliced</li>
+			 					<li class="recipe-info-ingredient-list-item"><b>1</b> &nbsp;&nbsp;tomatillos</li>
+			 					<li class="recipe-info-ingredient-list-item"><b>3</b> &nbsp;&nbsp;cups chicken stock</li>
+			 					<li class="recipe-info-ingredient-list-item"><b>3</b> &nbsp;&nbsp;cups almond milk</li>
+			 					<li class="recipe-info-ingredient-list-item"><b>1</b> &nbsp;&nbsp;oz cilantro</li>
+			 					<li class="recipe-info-ingredient-list-item"><b>6</b> &nbsp;&nbsp;oz green onions, chopped</li>
+			 				</ul>
+			 			</div>
+			 			<div class="col-xs-8 recipe-info-right-column">
+			 				<h3 class="text-center">Directions</h3>
+				 				<p class="recipe-info-directions">
+					 				Editor's Note: Named Bourbon Chicken because it was supposedly created by a Chinese cook who worked in a restaurant on Bourbon Street.<br><br>
+
+									Heat oil in a large skillet.<br><br>
+
+									Add chicken pieces and cook until lightly browned.<br><br>
+
+									Remove chicken.<br><br>
+
+									Add remaining ingredients, heating over medium Heat until well mixed and dissolved.
+									Add chicken and bring to a hard boil.<br><br>
+
+									Reduce heat and simmer for 20 minutes.<br><br>
+
+									Serve over hot rice and ENJOY.
+								</p>
+			 			</div>
+				 			
+				 	</div>
+				</div>
+		 	</div>
+	 	</div>
+  </div>
+</template>

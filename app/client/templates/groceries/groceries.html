@@ -1,0 +1,190 @@
+<template name="Groceries">
+  <div class="container-fluid wrapper-groceries">
+	<div class="container inner-groceries">
+		<div class="col-xs-3 grocery-aside">
+			<h4 class="text-center">Display Options</h4>
+			<div class="list-group text-center">
+				<a href="#" class="list-group-item">Smart List <span class="glyphicon glyphicon-question-sign pull-left"></span><span class="glyphicon glyphicon-ok pull-right" style="color: LimeGreen;"></span></a>
+				<a href="#" class="list-group-item">Exact Measurements <span class="glyphicon glyphicon-question-sign pull-left"></span></a>
+				<a href="#" class="list-group-item">Individual Recipes <span class="glyphicon glyphicon-question-sign pull-left"></span><span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+			</div>
+		</div>
+		<div class="col-xs-5 left-column-grocery-list">
+			<h4><span data-toggle="collapse" data-target=".produce-list" style="cursor: pointer"><b>+ </b></span> Produce</h4>
+			<ul class="produce-list collapse in">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp" data-toggle="collapse" data-target=".produce1"><b> +</b></span></label>
+						<ul class="produce1 collapse">
+							<li>Smaller ingredient amount - <a href="#">Nasty Cakes</a></li>
+							<li>Smaller ingredient amount - <a href="#">Cookies</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label data-toggle="collapse" data-target=".produce2"><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+						<ul class="produce2 collapse">
+							<li>Smaller ingredient amount - <a href="#">Nasty Cakes</a></li>
+							<li>Smaller ingredient amount - <a href="#">Cookies</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label data-toggle="collapse" data-target=".produce3"><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+						<ul class="produce3 collapse">
+							<li>Smaller ingredient amount - <a href="#">Nasty Cakes</a></li>
+							<li>Smaller ingredient amount - <a href="#">Cookies</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<h4><span data-toggle="collapse" data-target=".bakery-list" style="cursor: pointer"><b>+ </b></span> Bakery</h4>
+			<ul class="bakery-list collapse in">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+			</ul>
+			<h4><span data-toggle="collapse" data-target=".canned-list" style="cursor: pointer"><b>+ </b></span> Canned Goods</h4>
+			<ul class="canned-list collapse in">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+			</ul>
+			<h4><span data-toggle="collapse" data-target=".frozen-list" style="cursor: pointer"><b>+ </b></span> Frozen</h4>
+			<ul class="frozen-list collapse in">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="col-xs-4 right-column-grocery-list">
+			<h4><span data-toggle="collapse" data-target=".spices-list" style="cursor: pointer"><b>+ </b></span> Spices</h4>
+			<ul class="spices-list collapse in">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+			</ul>
+			<h4><span data-toggle="collapse" data-target=".condiments-list" style="cursor: pointer"><b>+ </b></span> Condiments</h4>
+			<ul class="condiments-list collapse in">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+			</ul>
+			<h4><span data-toggle="collapse" data-target=".deli-list" style="cursor: pointer"><b>+ </b></span> Deli</h4>
+			<ul class="deli-list collapse in">
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="col-xs-12">
+			<div class="col-xs-3">
+				
+			</div>
+			<div class="col-xs-9 partial-footer text-center" style="background-color: rgb(245,245,245);">
+				<div class="col-xs-6">
+					<button class="btn btn-default text-center"><span class="glyphicon glyphicon-trash"></span> Remove Selected Items</button>
+				</div>
+				<div class="col-xs-6">
+					<button class="btn btn-default text-center" data-toggle="collapse" data-target=".produce1, .produce2, .produce3"><span class="glyphicon glyphicon-eye-open"></span> Show Ingredients' Recipes</button>
+				</div>
+			</div>
+		</div>
+		
+	</div>  	  
+  </div>
+</template>

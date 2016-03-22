@@ -1,0 +1,72 @@
+/*****************************************************************************/
+/* Mealplan: Style */
+/*****************************************************************************/
+
+
+.your-recipe-panel .your-recipes {
+	background-color: rgb(230,230,230);
+}
+
+.mp-column {
+	display: inline-block;
+	width: 14%;
+}
+
+.derpy li {
+	width: 14%;
+	font-weight: bold;
+	margin-top: ;
+}
+
+.derpy {
+	margin-top: 7px;
+}
+
+.wrapper-mealplan {
+	min-height: 90%;
+}
+
+.wrapper-mp-recipe-info {
+	border: solid 1px rgb(230,230,230);
+}
+
+.recipe-info-details {
+	height: 65px;
+	background-color: rgb(240,240,240);
+	margin-bottom: 15px;
+}
+.recipe-info-left-column {
+	padding-left: 0;
+}
+
+.recipe-info-right-column {
+	padding-right: 0;
+}
+
+.wrapper-mp-recipe-info {
+	padding-top: 15px;
+	margin-bottom: 100px;
+	border-radius: 4px;
+}
+
+.recipe-info-details h5 {
+	text-decoration: underline;
+}
+
+.recipe-info-title {
+	margin-top: 0;
+}
+
+.recipe-info-ingredient-list-item {
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 125%;
+	border-bottom: 1px solid rgb(240,240,240);
+}
+
+.recipe-info-directions {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+

@@ -1,0 +1,32 @@
+<template name="Header">
+  <div class="header">
+    <nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="pull-left" href="/"><img src="Drawing.png" height="40px" style="margin-top: 5px; margin-right: 10px;"></a>
+    		</div>
+        <!--
+    		<ul class="nav navbar-nav">
+      			<li><a href="#"><b>Left Align</b></a></li>
+    		</ul>
+        -->
+        <ul class="nav navbar-nav nav-center">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-calendar"></span> <b>Plan</b> <span class="fa fa-caret-down"></span></a>
+            <ul class="dropdown-menu plan-menu">
+              <li><a href="recipes">Step 1: Recipes</a></li>
+              <li><a href="mealplan">Step 2: Meal Plan</a></li>
+            </ul>
+          </li>
+
+          <li><a href="groceries"><span class="glyphicon glyphicon-shopping-cart"></span> <b>Shop</b></a></li>
+          <li><a href="prepare"><span class="glyphicon glyphicon-fire"></span> <b>Prep</b></a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+        <li class=""><a href="#"><i class="glyphicon glyphicon-log-in"></i><b> Log In</b></a></li>
+          <li class=""><a href="#"><i class="glyphicon glyphicon-heart"></i><b> Sign Up</b></a></li>
+        </ul>
+  		</div>
+	</nav>
+  </div>
+</template>

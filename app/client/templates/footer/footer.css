@@ -1,0 +1,36 @@
+/*****************************************************************************/
+/* Footer: Style */
+/*****************************************************************************/
+.footer {
+}
+
+.wrapper-footer {
+	background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url('upfeathers.png');
+	border-top: solid 1px rgb(230,230,230);
+}
+
+.wrapper-inner-footer {
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+
+.fa-twitter-square, .fa-facebook-square, .fa-google-plus-square {
+	font-size: 300%;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.wrapper-inner-footer {
+	color: white;
+	text-shadow: 1px 1px 3px rgb(50,50,50);
+}
+
+.wrapper-inner-footer li{
+	list-style: none;
+	text-align: center;
+	font-size: 125%;
+}
+
+.wrapper-inner-footer ul {
+	padding: 0;
+}
