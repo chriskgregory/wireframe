@@ -5,8 +5,14 @@
 			<h4 class="text-center">Display Options</h4>
 			<div class="list-group text-center">
 				<a href="#" class="list-group-item">Smart List <span class="glyphicon glyphicon-question-sign pull-left"></span><span class="glyphicon glyphicon-ok pull-right" style="color: LimeGreen;"></span></a>
-				<a href="#" class="list-group-item">Exact Measurements <span class="glyphicon glyphicon-question-sign pull-left"></span></a>
-				<a href="#" class="list-group-item">Individual Recipes <span class="glyphicon glyphicon-question-sign pull-left"></span><span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+				<a href="#" class="list-group-item">Exact Measurements <span class="glyphicon glyphicon-question-sign pull-left"></span><span class="glyphicon glyphicon-remove pull-right" style="color: DarkRed;"></span></a>
+				<a href="#" class="list-group-item" data-toggle="collapse" data-target="#filter1">Individual Recipes <span class="glyphicon glyphicon-question-sign pull-left"></span><span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+				<ul class="collapse text-left list-group" id="filter1">
+					<li class="list-group-item your-recipes text-center">Nasty Cakes </li>
+					<li class="list-group-item your-recipes text-center">Cookies</li>
+					<li class="list-group-item your-recipes text-center">Oatmeal</li>
+					<li class="list-group-item your-recipes text-center">Breakfast Panini</li>
+				</ul>
 			</div>
 		</div>
 		<div class="col-xs-5 left-column-grocery-list">
@@ -23,7 +29,7 @@
 				</li>
 				<li>
 					<div class="checkbox">
-						<label data-toggle="collapse" data-target=".produce2"><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp" data-toggle="collapse" data-target=".produce2"><b> +</b></span></label>
 						<ul class="produce2 collapse">
 							<li>Smaller ingredient amount - <a href="#">Nasty Cakes</a></li>
 							<li>Smaller ingredient amount - <a href="#">Cookies</a></li>
@@ -32,7 +38,7 @@
 				</li>
 				<li>
 					<div class="checkbox">
-						<label data-toggle="collapse" data-target=".produce3"><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp"><b> +</b></span></label>
+						<label><input type="checkbox" value="">Ingredient - Calculated Amount <span class="derp" data-toggle="collapse" data-target=".produce3"><b> +</b></span></label>
 						<ul class="produce3 collapse">
 							<li>Smaller ingredient amount - <a href="#">Nasty Cakes</a></li>
 							<li>Smaller ingredient amount - <a href="#">Cookies</a></li>
@@ -177,7 +183,7 @@
 			</div>
 			<div class="col-xs-9 partial-footer text-center" style="background-color: rgb(245,245,245);">
 				<div class="col-xs-6">
-					<button class="btn btn-default text-center"><span class="glyphicon glyphicon-trash"></span> Remove Selected Items</button>
+					<button class="btn btn-default text-center rmv-itms"><span class="glyphicon glyphicon-trash"></span> Remove Selected Items</button>
 				</div>
 				<div class="col-xs-6">
 					<button class="btn btn-default text-center" data-toggle="collapse" data-target=".produce1, .produce2, .produce3"><span class="glyphicon glyphicon-eye-open"></span> Show Ingredients' Recipes</button>

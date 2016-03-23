@@ -51,3 +51,7 @@ ul.dropdown-menu {
 .produce1, .produce2, .produce3 {
 	padding-left: 5px;
 }
+
+.inner-groceries .your-recipes {
+	background-color: rgb(240,240,240);
+}
